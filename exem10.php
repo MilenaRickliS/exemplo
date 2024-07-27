@@ -14,7 +14,7 @@
     
         return true; 
     }
-    
+    echo '<br>';
     echo $text = "Jane quer LP, fax, CD, giz, TV e bom whisky.";
     echo '<br>';
     if (isPangram($text)) {
@@ -22,7 +22,7 @@
     } else {
         echo "O texto não é um pangrama.";
     }
-    echo '<br>';
+    echo '<br><br>';
     echo $text2 = "Jovem ex-quenga picha frase da Blitz.";
     echo '<br>';
     if (isPangram($text2)) {

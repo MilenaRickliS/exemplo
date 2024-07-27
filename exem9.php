@@ -1,4 +1,6 @@
 <?php 
+    echo '9. Crie um programa que calcule e imprima os números Fibonacci até o décimo termo: <br>';
+
     function fibonacci($n) {
         $fib = array();
         $fib[0] = 0;

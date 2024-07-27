@@ -1,6 +1,6 @@
 <?php
 
-    echo 'Verifica se número é primo: ';
+    echo '2. Verifique se um número é primo ou não: ';
     echo '<br>';
     $numero = 23;
     echo 'Exemplo: ', $numero;
